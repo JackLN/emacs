@@ -1,0 +1,20 @@
+;;===================================
+;;auto-complete-setting.el
+;;
+;;===================================
+
+(add-to-list 'load-path "~/_emacs/auto-complete")
+(add-to-list 'load-path "~/_emacs/popup")
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/_emacs/auto-complete/dict")
+(ac-config-default)
+(global-set-key "\M-/" 'auto-complete)
+(setq ac-auto-start 4)
+(define-key ac-menu-map "\C-n" 'ac-next)
+(define-key ac-menu-map "\C-p" 'ac-previous)
+(setq ac-menu-height 12)
+
+(setq ac-fuzzy-enable t)
+(setq ac-trigger-commands
+      (cons 'backward-delete-char-untabify ac-trigger-commands))
+(setq ac-dwim t)

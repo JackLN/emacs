@@ -1,0 +1,11 @@
+;;===============================
+;;cedet-setting.el
+;;Collection of Emacs Development
+;;Enviroment Tools
+;;===============================
+
+(load-file "~/_emacs/install/cedet-1.1/common/cedet.el")
+;;(require 'cedet)
+(global-ede-mode 1)
+
+

@@ -1,0 +1,12 @@
+;;=============================
+;;slime & sbcl
+;;
+;;=============================
+
+;;sbcl
+(setq inferior-lisp-programe "/usr/bin/sbcl")
+
+;;slime
+(add-to-list 'load-path "/usr/share/common-lisp/source/slime")
+(require 'slime)
+(slime-setup)

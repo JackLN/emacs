@@ -1,0 +1,10 @@
+;;=========================
+;;weibo
+;;
+;;========================
+
+
+(load-file "~/_emacs/weibo/weibo.el")
+
+(require 'weibo)
+
