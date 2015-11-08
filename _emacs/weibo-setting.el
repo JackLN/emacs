@@ -3,7 +3,7 @@
 ;;
 ;;========================
 
-(add-to-list 'load-path "~/emacs/_emacs/weibo")
+(add-to-list 'load-path "~/emacs/_emacs/sina-weibo")
 
 (require 'weibo)
 ;;(setq weibo-consumer-key "937630064"
