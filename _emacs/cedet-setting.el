@@ -4,7 +4,7 @@
 ;;Enviroment Tools
 ;;===============================
 
-(load-file "~/_emacs/cedet/cedet-devel-load.el")
+(load-file "~/emacs/_emacs/cedet/cedet-devel-load.el")
 ;;(require 'cedet)
 
 (add-to-list 'semantic-default-submodes 'global-semantic-idle-summary-mode t)

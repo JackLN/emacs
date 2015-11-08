@@ -3,7 +3,7 @@
 ;;
 
 
-(add-to-list 'load-path "~/_emacs/lua-mode/")
+(add-to-list 'load-path "~/emacs/_emacs/lua-mode/")
 
 (autoload 'lua-mode "lua-mode" "Lua editing mode." t)
 (add-to-list 'auto-mode-alist '("\\.lua$" . lua-mode))

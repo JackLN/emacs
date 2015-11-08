@@ -31,18 +31,11 @@
    '((menubar-lines . 20)(tool-bar-lines . 0)))
 
 ;;font size   
-(set-default-font "Courier New-16")  
+;;(set-default-font "Courier New-16")  
 
 ;;window mark key-blinding
 ;;(define-key global-map [C-return] 'set-mark-command)
    
-(require 'package) ;; You might already have this line
-(add-to-list 'package-archives
-             '("melpa" . "https://melpa.org/packages/"))
-(when (< emacs-major-version 24)
-  ;; For important compatibility libraries like cl-lib
-  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
-(package-initialize) ;; You might already have this line
 
 (setq indent-tabs-mode nil)
 (global-hl-line-mode 1)

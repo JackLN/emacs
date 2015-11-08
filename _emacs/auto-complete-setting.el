@@ -3,10 +3,10 @@
 ;;
 ;;===================================
 
-(add-to-list 'load-path "~/_emacs/auto-complete")
-(add-to-list 'load-path "~/_emacs/popup")
+(add-to-list 'load-path "~/emacs/_emacs/auto-complete")
+(add-to-list 'load-path "~/emacs/_emacs/popup")
 (require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/_emacs/auto-complete/dict")
+(add-to-list 'ac-dictionary-directories "~/emacs/_emacs/auto-complete/dict")
 (ac-config-default)
 (global-set-key "\M-/" 'auto-complete)
 (setq ac-auto-start 4)

@@ -3,11 +3,11 @@
 ;;perfect jump tool
 ;;===============================
 
-;;(load "~/_emacs/ace-jump/ace-jump-mode.el")
+;;(load "~/emacs/_emacs/ace-jump/ace-jump-mode.el")
 ;;(require 'ace-jump-mode)
 ;;(define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
 
-(load "~/_emacs/ace-jump/avy.el")
+(load "~/emacs/_emacs/ace-jump/avy.el")
 (require 'avy)
 (avy-setup-default)
 (global-set-key (kbd "C-'") 'avy-goto-char)

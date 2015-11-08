@@ -3,7 +3,7 @@
 ;;
 
 
-(add-to-list 'load-path "~/_emacs/csharp-mode/")
+(add-to-list 'load-path "~/emacs/_emacs/csharp-mode/")
 
 (autoload 'csharp-mode "csharp-mode" "Major mode for editing C# code." t)
 (setq auto-mode-alist
